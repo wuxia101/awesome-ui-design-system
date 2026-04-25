@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Ant Design",
+    "description": {
+      "zh": "蚂蚁集团推出的企业级设计系统，提供完整的设计规范、资源沉淀与高质量 React 组件生态，也覆盖部分 Vue 社区实现。",
+      "en": "An enterprise-oriented design system from Ant Group with comprehensive guidelines, design assets, and a mature React component ecosystem, plus related Vue community implementations."
+    },
+    "website": "https://ant.design/",
+    "github": "https://github.com/ant-design/ant-design",
+    "image": "https://picsum.photos/seed/antdesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Element Plus",
+    "description": {
+      "zh": "面向 Vue 3 的主流组件库与设计语言，强调开箱即用、组件完整和后台系统开发效率，适合中后台与内容型站点。",
+      "en": "A mainstream Vue 3 component library and design language focused on ready-to-use building blocks, broad component coverage, and productivity for admin and content-heavy products."
+    },
+    "website": "https://element-plus.org/",
+    "github": "https://github.com/element-plus/element-plus",
+    "image": "https://picsum.photos/seed/elementplus/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "Atlassian Design",
+    "description": {
+      "zh": "Atlassian 官方设计系统，为 Jira、Confluence 等产品统一视觉语言、设计原则、内容规范与前端实现模式。",
+      "en": "Atlassian's official design system that aligns visual language, principles, content guidance, and implementation patterns across products like Jira and Confluence."
+    },
+    "website": "https://atlassian.design/",
+    "github": "https://github.com/atlassian",
+    "image": "https://picsum.photos/seed/atlassiandesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "规范",
+        "en": "Guidelines"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      }
+    ]
+  },
+  {
+    "title": "shadcn/ui",
+    "description": {
+      "zh": "建立在 Radix 与 Tailwind 之上的现代组件集合，强调可复制、可组合、可深度定制，适合快速搭建定制化 React 界面。",
+      "en": "A modern component collection built on Radix and Tailwind, optimized for copy-paste workflows, composability, and deep customization in React products."
+    },
+    "website": "https://ui.shadcn.com/",
+    "github": "https://github.com/shadcn-ui/ui",
+    "image": "https://picsum.photos/seed/shadcn/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Tailwind",
+        "en": "Tailwind"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      },
+      {
+        "zh": "现代 UI",
+        "en": "Modern UI"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+name: Run Source Update Script
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-sources:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Update source data from SOURCE.md
+        run: bun run update:sources
+
+      - name: Update README snapshot
+        run: bun run update:readme
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- src/data/sourceDesignSystems.json README.md; then
+            echo "No source updates found."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/sourceDesignSystems.json README.md
+          git commit -m "chore: refresh source data"
+          git push

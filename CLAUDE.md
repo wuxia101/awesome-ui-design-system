@@ -107,6 +107,8 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
 
 ## Project Workflow Prompt
 
+Agent maintenance handbook lives in `AGENT.md`. When the task is about ongoing repository maintenance, source merging, design system curation, or documentation synchronization, follow `AGENT.md` as the project-specific operating manual.
+
 当用户提出类似“整理设计系统数据 / 根据来源链接补充基础数据 / 更新页面展示 / 同步 README / 增加脚本自动化”的需求时，默认按下面的理解执行，不需要反复确认细节：
 
 1. 先把页面展示数据抽离为独立 JSON 数据源，放在 `src/data/` 下。
@@ -146,6 +148,11 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
    - 数据文件和脚本放在哪里
    - 执行了哪些验证
    - 如果有来源数据只是“原始抓取”而非“人工校正”，要明确说明
+
+9. 本项目后续默认由 agent 维护：
+   - 不再依赖 GitHub Actions 定时抓取
+   - 自动化脚本只作为辅助，不作为最终维护者
+   - 对来源数据的提升、去重、文案整理和展示取舍，默认由 agent 判断完成
 
 可直接使用的用户提示词模板：
 

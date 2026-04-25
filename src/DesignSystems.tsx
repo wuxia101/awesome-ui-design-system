@@ -17,6 +17,21 @@ interface TagOption {
   label: Record<Locale, string>;
 }
 
+const preloadedImageUrls = new Set<string>();
+const PRELOAD_IMAGE_COUNT = 12;
+
+function preloadImage(url: string) {
+  if (preloadedImageUrls.has(url)) {
+    return;
+  }
+
+  preloadedImageUrls.add(url);
+
+  const image = new Image();
+  image.decoding = "async";
+  image.src = url;
+}
+
 const localeCopy: Record<
   Locale,
   {
@@ -120,6 +135,14 @@ export function DesignSystems() {
   useEffect(() => {
     document.documentElement.lang = locale === "zh" ? "zh-CN" : "en";
   }, [locale]);
+
+  useEffect(() => {
+    filteredSystems
+      .slice(0, PRELOAD_IMAGE_COUNT)
+      .map((system) => system.image)
+      .filter((image): image is string => Boolean(image))
+      .forEach(preloadImage);
+  }, [filteredSystems]);
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
@@ -235,7 +258,7 @@ export function DesignSystems() {
         <div className="max-w-7xl mx-auto">
           {filteredSystems.length > 0 ? (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
-              {filteredSystems.map((ds) => (
+              {filteredSystems.map((ds, index) => (
                 <article
                   key={ds.title}
                   className="group overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-200 hover:shadow-md hover:outline hover:outline-2 hover:outline-blue-400"
@@ -246,7 +269,8 @@ export function DesignSystems() {
                         src={ds.image}
                         alt={ds.title}
                         className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                        loading="lazy"
+                        loading={index < PRELOAD_IMAGE_COUNT ? "eager" : "lazy"}
+                        fetchPriority={index < 4 ? "high" : "auto"}
                       />
                     )}
                     {!ds.image && (

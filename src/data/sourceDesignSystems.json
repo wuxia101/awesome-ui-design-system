@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Ant Design",
+    "website": "https://ant.design/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/ant-design/ant-design/",
+    "owner": "Ant Financial",
+    "description": "A design system with values of Nature and Determinacy for better user experience of enterprise applications.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Atlaskit",
+    "website": "http://atlaskit.atlassian.com/",
+    "repositoryLabel": "bitbucket",
+    "repositoryUrl": "https://bitbucket.org/atlassian/atlaskit-mk-2",
+    "owner": "Atlassian",
+    "description": "Atlassian's official UI library, built according to the Atlassian Design Guidelines.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Base Web",
+    "website": "https://baseweb.design/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/uber/baseweb",
+    "owner": "Uber",
+    "description": "Base Web is a foundation for initiating, evolving, and unifying web products.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Blueprint",
+    "website": "http://blueprintjs.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/palantir/blueprint",
+    "owner": "Palantir",
+    "description": "A React-based UI toolkit for the web",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Chakra UI",
+    "website": "https://chakra-ui.com/getting-started",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/chakra-ui/chakra-ui/tree/master/packages/chakra-ui",
+    "owner": "Chakra UI",
+    "description": "Create a theme object to include custom color, typography, and layout values. Chakra UI comes with a default theme, so this step is optional.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Canvas",
+    "website": "https://canvas.hubspot.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/HubSpot/canvas",
+    "owner": "Hubspot",
+    "description": "HubSpot Canvas is the design system that we at HubSpot use to build our products.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Carbon Design System",
+    "website": "http://carbondesignsystem.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/carbon-design-system/carbon-components",
+    "owner": "IBM",
+    "description": "The Carbon Design System is integrating the new IBM Design Ethos and Language.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "cf-ui",
+    "website": "https://cloudflare.github.io/cf-ui/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/cloudflare/cf-ui",
+    "owner": "Cloudflare",
+    "description": "A set of packages used to build UIs at Cloudflare using projects such as React.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Elastic UI framework",
+    "website": "https://elastic.github.io/eui/#/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/segmentio/evergreen",
+    "owner": "Elastic UI framework",
+    "description": "The Elastic UI framework (EUI) is a design library in use at Elastic to build internal products that need to share our aesthetics. It distributes UI React components and static assets for use in building web layouts.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Evergreen",
+    "website": "https://evergreen.segment.com/get-started/introduction",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/segmentio/evergreen",
+    "owner": "Evergreen",
+    "description": "a pragmatic UI kit for building evolving products on the web. It is built and maintained open-source by Segment.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Fluent UI",
+    "website": "https://developer.microsoft.com/en-us/fluentui#/get-started",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/microsoft/fluentui",
+    "owner": "Microsoft",
+    "description": "Fluent UI React is the official open-source React front-end framework designed to build experiences that fit seamlessly into a broad range of Microsoft products. It provides robust, up-to-date, accessible components which are highly customizable using CSS-in-JS.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Gestalt",
+    "website": "https://pinterest.github.io/gestalt/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/pinterest/gestalt",
+    "owner": "Gestalt",
+    "description": "A set of React UI components that supports Pinterest’s design language.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Grommet",
+    "website": "http://grommet.io/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/grommet/grommet",
+    "owner": "Hewlett Packard",
+    "description": "Grommet provides all the guidance, components, and design resources you need to take your ideas from concept to a real application.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Hack Club Design System",
+    "website": "https://design.hackclub.com",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/hackclub/design-system",
+    "owner": "Hack Club",
+    "description": "A collection of React components designed for speed, consistency, and best practices.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Lightning Design System",
+    "website": "https://react.lightningdesignsystem.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/salesforce/design-system-react",
+    "owner": "Salesforce",
+    "description": "A React implementation of the Lightning Design System.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Material UI",
+    "website": "https://www.material-ui.com/#/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/mui-org/material-ui",
+    "owner": "Google",
+    "description": "React components that implement Google's Material Design.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Pivotal UI",
+    "website": "https://styleguide.pivotal.io/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/pivotal-cf/pivotal-ui",
+    "owner": "Pivotal",
+    "description": "A collection of React components that are styled for the Pivotal brand.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Pluralsight Design System",
+    "website": "https://design-system.pluralsight.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/pluralsight/design-system",
+    "owner": "Pluralsight",
+    "description": "The UI building blocks for creating a cohesive design across Pluralsight products.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Polaris",
+    "website": "https://polaris.shopify.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/Shopify/polaris",
+    "owner": "Shopify",
+    "description": "Our design system helps us work together to build a great experience for all of Shopify’s merchants.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Priceline One",
+    "website": "https://pricelinelabs.github.io/design-system/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/pricelinelabs/design-system",
+    "owner": "Priceline",
+    "description": "A design system focused on speed, consistency, and best practices.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "React-bootstrap",
+    "website": "https://react-bootstrap.github.io/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/react-bootstrap/react-bootstrap",
+    "owner": "Bootstrap",
+    "description": "The most popular front-end framework rebuilt for React.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "react-desktop",
+    "website": "http://reactdesktop.js.org/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/gabrielbull/react-desktop",
+    "owner": null,
+    "description": "react-desktop - react-desktop is a JavaScript library built on top of Facebook's React library, which aims to bring a native desktop experience to the web, featuring many macOS Sierra and Windows 10 components.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "React SuiteJS",
+    "website": "https://rsuitejs.com/en/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/rsuite/rsuite",
+    "owner": "React Suitejs",
+    "description": "A suite of React components, sensible UI design, and a friendly development experience.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "RebaseJS",
+    "website": "https://rebassjs.org/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/rebassjs/rebass",
+    "owner": "React UI components built with Styled System.",
+    "description": null,
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Seek Style Guide",
+    "website": "https://seek-oss.github.io/seek-style-guide/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/seek-oss/seek-style-guide",
+    "owner": "Seek",
+    "description": "Living style guide for SEEK, powered by React, webpack, CSS Modules and Less.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Semantic-UI-React",
+    "website": "https://react.semantic-ui.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/Semantic-Org/Semantic-UI-React",
+    "owner": null,
+    "description": "Semantic-Ui - Semantic UI React is the official React integration for Semantic UI .",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "SpareBank 1's Design System",
+    "website": "https://design.sparebank1.no/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/SpareBank1/designsystem",
+    "owner": "SpareBank",
+    "description": "A common language across disciplines, to ensure consistent design in our solutions.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Spark Design System",
+    "website": "https://sparkdesignsystem.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/sparkdesignsystem/spark-design-system",
+    "owner": "Quicken Loans",
+    "description": "A system of patterns and components used to create the user interface for the Quicken Loans family of Fintech products.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Theme UI",
+    "website": "https://theme-ui.com/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/system-ui/theme-ui",
+    "owner": "Theme UI",
+    "description": "Build consistent, themeable React apps based on constraint-based design principles.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Uniform",
+    "website": "http://uniform.hudl.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": "Hudl",
+    "description": "The system includes components, visual guidelines, language and additional resources to help you build more cohesive product interfaces.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  }
+]

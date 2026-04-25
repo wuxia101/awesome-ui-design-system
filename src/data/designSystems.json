@@ -126,5 +126,237 @@
         "en": "Modern UI"
       }
     ]
+  },
+  {
+    "title": "Base Web",
+    "description": {
+      "zh": "Uber 推出的 React 设计系统与组件库，强调可扩展主题、完整组件覆盖和适合长期演进的产品基础设施。",
+      "en": "Uber's React design system and component library focused on scalable theming, broad component coverage, and a durable foundation for evolving products."
+    },
+    "website": "https://baseweb.design/",
+    "github": "https://github.com/uber/baseweb",
+    "image": "https://picsum.photos/seed/baseweb/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "主题",
+        "en": "Theming"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Blueprint",
+    "description": {
+      "zh": "Palantir 的 React UI 工具包，适合数据密集型桌面风格应用，常用于后台、分析和复杂交互场景。",
+      "en": "Palantir's React UI toolkit for data-dense, desktop-style applications, commonly used in admin, analytics, and complex interaction scenarios."
+    },
+    "website": "https://blueprintjs.com/",
+    "github": "https://github.com/palantir/blueprint",
+    "image": "https://picsum.photos/seed/blueprint/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "数据密集",
+        "en": "Data Dense"
+      }
+    ]
+  },
+  {
+    "title": "Chakra UI",
+    "description": {
+      "zh": "强调可访问性、主题定制和开发体验的 React 组件系统，适合快速构建现代产品界面。",
+      "en": "A React component system focused on accessibility, theming, and developer experience for building modern product interfaces quickly."
+    },
+    "website": "https://chakra-ui.com/",
+    "github": "https://github.com/chakra-ui/chakra-ui",
+    "image": "https://picsum.photos/seed/chakraui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "主题",
+        "en": "Theming"
+      }
+    ]
+  },
+  {
+    "title": "Carbon Design System",
+    "description": {
+      "zh": "IBM 的设计系统，覆盖设计原则、开发资源与跨产品组件库，适合大型组织统一设计语言。",
+      "en": "IBM's design system spanning principles, development resources, and shared components for large organizations with a unified design language."
+    },
+    "website": "https://carbondesignsystem.com/",
+    "github": "https://github.com/carbon-design-system/carbon",
+    "image": "https://picsum.photos/seed/carbon/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Fluent UI",
+    "description": {
+      "zh": "微软官方前端设计系统与 React 组件库，强调一致性、无障碍和企业应用集成能力。",
+      "en": "Microsoft's official frontend design system and React component library emphasizing consistency, accessibility, and enterprise-ready integration."
+    },
+    "website": "https://react.fluentui.dev/",
+    "github": "https://github.com/microsoft/fluentui",
+    "image": "https://picsum.photos/seed/fluentui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Grommet",
+    "description": {
+      "zh": "Grommet 提供设计资源、布局能力与 React 组件，适合从概念验证快速走向完整应用。",
+      "en": "Grommet combines design resources, layout primitives, and React components to help teams move from concept to full applications."
+    },
+    "website": "https://grommet.io/",
+    "github": "https://github.com/grommet/grommet",
+    "image": "https://picsum.photos/seed/grommet/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "布局",
+        "en": "Layout"
+      }
+    ]
+  },
+  {
+    "title": "Material UI",
+    "description": {
+      "zh": "基于 Material Design 的 React 组件库与设计体系，生态成熟，适合快速搭建通用型 Web 应用。",
+      "en": "A mature React component library and design system based on Material Design, well suited for building general-purpose web applications quickly."
+    },
+    "website": "https://mui.com/",
+    "github": "https://github.com/mui/material-ui",
+    "image": "https://picsum.photos/seed/materialui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Material Design",
+        "en": "Material Design"
+      },
+      {
+        "zh": "生态成熟",
+        "en": "Mature Ecosystem"
+      }
+    ]
+  },
+  {
+    "title": "Polaris",
+    "description": {
+      "zh": "Shopify 的产品设计系统，围绕商家产品体验建立统一的设计语言、内容规范与组件实现。",
+      "en": "Shopify's product design system built to unify design language, content guidance, and component implementation across merchant-facing experiences."
+    },
+    "website": "https://polaris.shopify.com/",
+    "github": "https://github.com/Shopify/polaris",
+    "image": "https://picsum.photos/seed/polaris/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
   }
 ]

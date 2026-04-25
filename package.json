@@ -7,7 +7,8 @@
     "dev": "bun --hot src/index.ts",
     "start": "NODE_ENV=production bun src/index.ts",
     "build": "bun run build.ts",
-    "update:readme": "bun run scripts/update-readme.ts"
+    "update:readme": "bun run scripts/update-readme.ts",
+    "update:sources": "bun run scripts/update-source-data.ts"
   },
   "dependencies": {
     "bun-plugin-tailwind": "^0.1.2",

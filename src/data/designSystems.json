@@ -1018,5 +1018,853 @@
         "en": "Composable"
       }
     ]
+  },
+  {
+    "title": "Naive UI",
+    "description": {
+      "zh": "一个 Vue 3 组件库，比较完整，主题可调，使用 TypeScript，支持 tree shaking，适合中后台开发。",
+      "en": "A complete Vue 3 component library with customizable themes, TypeScript support, and tree shaking, ideal for middle and backend development."
+    },
+    "website": "https://www.naiveui.com/",
+    "github": "https://github.com/tusen-ai/naive-ui",
+    "image": "https://picsum.photos/seed/naiveui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "TypeScript",
+        "en": "TypeScript"
+      },
+      {
+        "zh": "中后台",
+        "en": "Admin"
+      }
+    ]
+  },
+  {
+    "title": "Vuetify",
+    "description": {
+      "zh": "基于 Material Design 的 Vue 组件框架，提供大量精心设计的组件和强大的主题系统。",
+      "en": "Material Design component framework for Vue, providing many beautifully designed components and a powerful theming system."
+    },
+    "website": "https://vuetifyjs.com/",
+    "github": "https://github.com/vuetifyjs/vuetify",
+    "image": "https://picsum.photos/seed/vuetify/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "Material Design",
+        "en": "Material Design"
+      }
+    ]
+  },
+  {
+    "title": "Quasar",
+    "description": {
+      "zh": "Vue 驱动的全栈框架，一次编写同时构建网站、PWA、移动应用和 Electron 应用。",
+      "en": "Vue-driven full-stack framework for building websites, PWAs, mobile apps, and Electron apps with a single codebase."
+    },
+    "website": "https://quasar.dev/",
+    "github": "https://github.com/quasarframework/quasar",
+    "image": "https://picsum.photos/seed/quasar/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "跨平台",
+        "en": "Cross-Platform"
+      }
+    ]
+  },
+  {
+    "title": "PrimeVue",
+    "description": {
+      "zh": "PrimeTek 推出的 Vue UI 组件库，包含丰富的组件集和强大的主题支持。",
+      "en": "PrimeTek's Vue UI component library featuring a rich set of components and powerful theme support."
+    },
+    "website": "https://primevue.org/",
+    "github": "https://github.com/primefaces/primevue",
+    "image": "https://picsum.photos/seed/primevue/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Arco Design Vue",
+    "description": {
+      "zh": "字节跳动出品的企业级设计系统 Vue 版，帮助设计师和开发者更快更好地搭建产品。",
+      "en": "Enterprise design system by ByteDance for Vue, helping designers and developers build products faster and better."
+    },
+    "website": "https://arco.design/",
+    "github": "https://github.com/arco-design/arco-design-vue",
+    "image": "https://picsum.photos/seed/arcodesignvue/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "字节",
+        "en": "ByteDance"
+      }
+    ]
+  },
+  {
+    "title": "TDesign Vue",
+    "description": {
+      "zh": "腾讯出品的企业级设计系统 Vue 版，一致性、模块化、开箱即用的移动端和桌面端组件库。",
+      "en": "Enterprise design system by Tencent for Vue, providing consistent, modular, ready-to-use components for mobile and desktop."
+    },
+    "website": "https://tdesign.tencent.com/",
+    "github": "https://github.com/Tencent/tdesign-vue",
+    "image": "https://picsum.photos/seed/tdesignvue/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "腾讯",
+        "en": "Tencent"
+      }
+    ]
+  },
+  {
+    "title": "Varlet",
+    "description": {
+      "zh": "基于 Vue 3 的移动端组件库，提供全面的移动组件解决方案。",
+      "en": "Mobile component library based on Vue 3, providing a comprehensive solution for mobile components."
+    },
+    "website": "https://varlet.gitee.io/",
+    "github": "https://github.com/varletjs/varlet",
+    "image": "https://picsum.photos/seed/varlet/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "移动端",
+        "en": "Mobile"
+      }
+    ]
+  },
+  {
+    "title": "Vant",
+    "description": {
+      "zh": "有赞出品的轻量、可定制的移动端 Vue 组件库，开箱即用，助力快速开发移动端应用。",
+      "en": "Lightweight, customizable mobile Vue component library by Youzan, ready-to-use for rapid mobile development."
+    },
+    "website": "https://vant-ui.github.io/vant/",
+    "github": "https://github.com/vant-ui/vant",
+    "image": "https://picsum.photos/seed/vant/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "移动端",
+        "en": "Mobile"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "NutUI",
+    "description": {
+      "zh": "京东出品的移动端 Vue 组件库，帮助开发者快速搭建移动端应用。",
+      "en": "Mobile Vue component library by JD.com, helping developers quickly build mobile applications."
+    },
+    "website": "https://nutui.jd.com/",
+    "github": "https://github.com/jdf2e/nutui",
+    "image": "https://picsum.photos/seed/nutui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "移动端",
+        "en": "Mobile"
+      },
+      {
+        "zh": "京东",
+        "en": "JD.com"
+      }
+    ]
+  },
+  {
+    "title": "PrimeReact",
+    "description": {
+      "zh": "PrimeTek 推出的 React UI 组件库，提供丰富的组件和主题支持。",
+      "en": "PrimeTek's React UI component library offering rich components and theme support."
+    },
+    "website": "https://primereact.org/",
+    "github": "https://github.com/primefaces/primereact",
+    "image": "https://picsum.photos/seed/primereact/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Arco Design React",
+    "description": {
+      "zh": "字节跳动出品的企业级设计系统 React 版，帮助设计师和开发者更快更好地搭建产品。",
+      "en": "Enterprise design system by ByteDance for React, helping designers and developers build products faster and better."
+    },
+    "website": "https://arco.design/",
+    "github": "https://github.com/arco-design/arco-design",
+    "image": "https://picsum.photos/seed/arcodesignreact/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "字节",
+        "en": "ByteDance"
+      }
+    ]
+  },
+  {
+    "title": "TDesign React",
+    "description": {
+      "zh": "腾讯出品的企业级设计系统 React 版，一致性、模块化、开箱即用的移动端和桌面端组件库。",
+      "en": "Enterprise design system by Tencent for React, providing consistent, modular, ready-to-use components for mobile and desktop."
+    },
+    "website": "https://tdesign.tencent.com/",
+    "github": "https://github.com/Tencent/tdesign-react",
+    "image": "https://picsum.photos/seed/tdesignreact/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "腾讯",
+        "en": "Tencent"
+      }
+    ]
+  },
+  {
+    "title": "Mantine",
+    "description": {
+      "zh": " fully featured React 组件库，专注于用户体验和开发体验，内置许多高级功能。",
+      "en": "Fully-featured React component library focused on great user and developer experience with many built-in advanced features."
+    },
+    "website": "https://mantine.dev/",
+    "github": "https://github.com/mantinedev/mantine",
+    "image": "https://picsum.photos/seed/mantine/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      },
+      {
+        "zh": "TypeScript",
+        "en": "TypeScript"
+      }
+    ]
+  },
+  {
+    "title": "TanStack UI",
+    "description": {
+      "zh": "TanStack 生态中的无头组件集合，为数据网格、表格等提供高质量的原语。",
+      "en": "Collection of headless components from the TanStack ecosystem, providing high-quality primitives for data grids and tables."
+    },
+    "website": "https://tanstack.com/",
+    "github": "https://github.com/TanStack",
+    "image": "https://picsum.photos/seed/tanstackui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "无样式",
+        "en": "Unstyled"
+      },
+      {
+        "zh": "Headless",
+        "en": "Headless"
+      },
+      {
+        "zh": "数据表格",
+        "en": "Data Table"
+      }
+    ]
+  },
+  {
+    "title": "DaisyUI",
+    "description": {
+      "zh": "基于 Tailwind CSS 的组件库，提供一系列可重用的组件类，直接在 HTML 中使用。",
+      "en": "Component library built on Tailwind CSS, providing a set of reusable component classes that you can use directly in your HTML."
+    },
+    "website": "https://daisyui.com/",
+    "github": "https://github.com/saadeghi/daisyui",
+    "image": "https://picsum.photos/seed/daisyui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Tailwind",
+        "en": "Tailwind"
+      },
+      {
+        "zh": "CSS",
+        "en": "CSS"
+      }
+    ]
+  },
+  {
+    "title": "Tailwind CSS",
+    "description": {
+      "zh": "功能类优先的 CSS 框架，直接在 HTML 中快速构建自定义界面，无需离开 HTML 编写 CSS。",
+      "en": "Utility-first CSS framework for rapidly building custom user interfaces directly in HTML without writing custom CSS."
+    },
+    "website": "https://tailwindcss.com/",
+    "github": "https://github.com/tailwindlabs/tailwindcss",
+    "image": "https://picsum.photos/seed/tailwindcss/800/450.jpg",
+    "tags": [
+      {
+        "zh": "原子化 CSS",
+        "en": "Utility-First"
+      },
+      {
+        "zh": "CSS 框架",
+        "en": "CSS Framework"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Bootstrap",
+    "description": {
+      "zh": "全球最流行的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 Web 项目。",
+      "en": "The world's most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web."
+    },
+    "website": "https://getbootstrap.com/",
+    "github": "https://github.com/twbs/bootstrap",
+    "image": "https://picsum.photos/seed/bootstrap/800/450.jpg",
+    "tags": [
+      {
+        "zh": "CSS 框架",
+        "en": "CSS Framework"
+      },
+      {
+        "zh": "响应式",
+        "en": "Responsive"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "Bulma",
+    "description": {
+      "zh": "免费开源的现代 CSS 框架，基于 Flexbox，100% 响应式，仅 CSS 无 JavaScript。",
+      "en": "Free, open source modern CSS framework based on Flexbox, 100% responsive, CSS only with no JavaScript."
+    },
+    "website": "https://bulma.io/",
+    "github": "https://github.com/jgthms/bulma",
+    "image": "https://picsum.photos/seed/bulma/800/450.jpg",
+    "tags": [
+      {
+        "zh": "CSS 框架",
+        "en": "CSS Framework"
+      },
+      {
+        "zh": "响应式",
+        "en": "Responsive"
+      },
+      {
+        "zh": "仅 CSS",
+        "en": "CSS Only"
+      }
+    ]
+  },
+  {
+    "title": "Tailwind UI",
+    "description": {
+      "zh": "Tailwind CSS 官方推出的组件库，提供精美的生产就绪组件供开发者使用。",
+      "en": "Official component library from Tailwind CSS, providing beautiful, production-ready components for developers."
+    },
+    "website": "https://tailwindui.com/",
+    "github": "https://github.com/tailwindlabs",
+    "image": "https://picsum.photos/seed/tailwindui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Tailwind",
+        "en": "Tailwind"
+      },
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      }
+    ]
+  },
+  {
+    "title": "Flowbite",
+    "description": {
+      "zh": "基于 Tailwind CSS 的开源 UI 组件库，提供响应式组件和交互式元素。",
+      "en": "Open-source UI component library built on Tailwind CSS, providing responsive components and interactive elements."
+    },
+    "website": "https://flowbite.com/",
+    "github": "https://github.com/themesberg/flowbite",
+    "image": "https://picsum.photos/seed/flowbite/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Tailwind",
+        "en": "Tailwind"
+      },
+      {
+        "zh": "响应式",
+        "en": "Responsive"
+      }
+    ]
+  },
+  {
+    "title": "Uiverse",
+    "description": {
+      "zh": "社区驱动的开源 UI 元素集合，提供大量可复制粘贴的代码片段。",
+      "en": "Community-driven collection of open-source UI elements, providing many copy-paste ready code snippets."
+    },
+    "website": "https://uiverse.io/",
+    "github": "https://github.com/rossanodan/uiverse",
+    "image": "https://picsum.photos/seed/uiverse/800/450.jpg",
+    "tags": [
+      {
+        "zh": "UI 元素",
+        "en": "UI Elements"
+      },
+      {
+        "zh": "社区",
+        "en": "Community"
+      },
+      {
+        "zh": "可复制",
+        "en": "Copy-Paste"
+      }
+    ]
+  },
+  {
+    "title": "Panda CSS",
+    "description": {
+      "zh": "编译时 CSS-in-JS，针对组件开发优化，提供出色的开发体验。",
+      "en": "Compile-time CSS-in-JS optimized for component development, delivering great developer experience."
+    },
+    "website": "https://panda-css.com/",
+    "github": "https://github.com/chakra-ui/panda",
+    "image": "https://picsum.photos/seed/pandacss/800/450.jpg",
+    "tags": [
+      {
+        "zh": "CSS-in-JS",
+        "en": "CSS-in-JS"
+      },
+      {
+        "zh": "样式引擎",
+        "en": "Styling Engine"
+      },
+      {
+        "zh": "编译时",
+        "en": "Compile-Time"
+      }
+    ]
+  },
+  {
+    "title": "Semi Design",
+    "description": {
+      "zh": "字节跳动出品的现代化设计系统，帮助团队高效搭建高质量产品界面。",
+      "en": "Modern design system by ByteDance, helping teams build high-quality product interfaces efficiently."
+    },
+    "website": "https://semi.design/",
+    "github": "https://github.com/DouyinFE/semi-design",
+    "image": "https://picsum.photos/seed/semidesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "字节",
+        "en": "ByteDance"
+      }
+    ]
+  },
+  {
+    "title": "Fusion Design",
+    "description": {
+      "zh": "阿里巴巴推出的企业级设计系统，致力于让设计成为驱动业务增长的引擎。",
+      "en": "Enterprise design system from Alibaba, dedicated to making design an engine for driving business growth."
+    },
+    "website": "https://fusion.design/",
+    "github": "https://github.com/alibaba-fusion",
+    "image": "https://picsum.photos/seed/fusiondesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "阿里",
+        "en": "Alibaba"
+      }
+    ]
+  },
+  {
+    "title": "JD Design",
+    "description": {
+      "zh": "京东官方设计系统，为京东产品提供统一的设计语言和组件实现。",
+      "en": "Official design system from JD.com, providing unified design language and component implementations for JD products."
+    },
+    "website": "https://design.jd.com/",
+    "github": "https://github.com/jdf2e",
+    "image": "https://picsum.photos/seed/jddesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "京东",
+        "en": "JD.com"
+      }
+    ]
+  },
+  {
+    "title": "Zan Design",
+    "description": {
+      "zh": "有赞官方设计系统，支撑有赞全系列产品的设计一致性和开发效率。",
+      "en": "Official design system from Youzan, supporting design consistency and development efficiency across Youzan product lines."
+    },
+    "website": "https://design.youzan.com/",
+    "github": "https://github.com/youzan",
+    "image": "https://picsum.photos/seed/zandesign/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "有赞",
+        "en": "Youzan"
+      }
+    ]
+  },
+  {
+    "title": "Cube UI",
+    "description": {
+      "zh": "滴滴前端团队维护的基于 Vue 的移动端 UI 组件库，用于快速开发移动端应用。",
+      "en": "Mobile UI component library based on Vue maintained by Didi frontend team, for rapid mobile application development."
+    },
+    "website": "https://didi.github.io/cube-ui/",
+    "github": "https://github.com/didi/cube-ui",
+    "image": "https://picsum.photos/seed/cubeui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "移动端",
+        "en": "Mobile"
+      },
+      {
+        "zh": "滴滴",
+        "en": "Didi"
+      }
+    ]
+  },
+  {
+    "title": "Vuesax",
+    "description": {
+      "zh": "Vue 组件库，具有新颖的设计和大量可定制的组件。",
+      "en": "Vue component library with fresh design and a large collection of customizable components."
+    },
+    "website": "https://vuesax.com/",
+    "github": "https://github.com/lusaxweb/vuesax",
+    "image": "https://picsum.photos/seed/vuesax/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Framework7",
+    "description": {
+      "zh": "全功能 HTML 应用框架，用于构建混合移动应用，带有原生 iOS 和 Material Design 外观。",
+      "en": "Full-featured HTML application framework for building hybrid mobile apps with native iOS and Material Design look and feel."
+    },
+    "website": "https://framework7.io/",
+    "github": "https://github.com/framework7io/framework7",
+    "image": "https://picsum.photos/seed/framework7/800/450.jpg",
+    "tags": [
+      {
+        "zh": "框架",
+        "en": "Framework"
+      },
+      {
+        "zh": "移动端",
+        "en": "Mobile"
+      },
+      {
+        "zh": "混合应用",
+        "en": "Hybrid App"
+      }
+    ]
+  },
+  {
+    "title": "ProComponents",
+    "description": {
+      "zh": "Ant Design 官方配套的中后台模板/组件库，提供了开箱即用的模板和业务组件。",
+      "en": "Official admin/backend template/component library paired with Ant Design, providing ready-to-use templates and business components."
+    },
+    "website": "https://procomponents.ant.design/",
+    "github": "https://github.com/ant-design/pro-components",
+    "image": "https://picsum.photos/seed/procomponents/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "中后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "Naive UI Pro",
+    "description": {
+      "zh": "Naive UI 配套的中后台解决方案，提供模板和业务组件帮助快速搭建中后台应用。",
+      "en": "Admin/backend solution paired with Naive UI, providing templates and business components for rapid admin application development."
+    },
+    "website": "https://www.naiveui.com/zh-CN/os-theme/docs/naive-ui-pro-introduction",
+    "github": "https://github.com/tusen-ai/naive-ui-pro",
+    "image": "https://picsum.photos/seed/naiveuipro/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "中后台",
+        "en": "Admin"
+      }
+    ]
+  },
+  {
+    "title": "Element Pro",
+    "description": {
+      "zh": "Element Plus 配套的中后台解决方案，帮助开发者快速搭建企业级中后台项目。",
+      "en": "Admin/backend solution paired with Element Plus, helping developers quickly build enterprise-level admin projects."
+    },
+    "website": "https://pro.element-plus.org/",
+    "github": "https://github.com/element-plus/element-plus-pro",
+    "image": "https://picsum.photos/seed/elementpro/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "中后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
   }
 ]

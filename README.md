@@ -35,6 +35,8 @@ bun run update:readme
 bun run update:sources
 ```
 
+![screenshot](./screenshot.png)
+
 <!-- DESIGN_SYSTEMS:START -->
 ## Collected Design Systems
 
@@ -317,4 +319,260 @@ bun run update:sources
 - 中文说明: Radix UI 在 Vue 生态中的实现，提供无样式、可访问的组件原语，适合搭建设计系统和复杂应用。
 - English: A Vue implementation inspired by Radix UI, providing unstyled and accessible primitives for design systems and complex applications.
 - Tags: `设计系统 / Design System` `无样式 / Unstyled` `可访问性 / Accessibility` `Vue / Vue` `可组合 / Composable`
+
+### Naive UI
+
+- Website: https://www.naiveui.com/
+- GitHub: https://github.com/tusen-ai/naive-ui
+- 中文说明: 一个 Vue 3 组件库，比较完整，主题可调，使用 TypeScript，支持 tree shaking，适合中后台开发。
+- English: A complete Vue 3 component library with customizable themes, TypeScript support, and tree shaking, ideal for middle and backend development.
+- Tags: `组件 / Components` `Vue / Vue` `TypeScript / TypeScript` `中后台 / Admin`
+
+### Vuetify
+
+- Website: https://vuetifyjs.com/
+- GitHub: https://github.com/vuetifyjs/vuetify
+- 中文说明: 基于 Material Design 的 Vue 组件框架，提供大量精心设计的组件和强大的主题系统。
+- English: Material Design component framework for Vue, providing many beautifully designed components and a powerful theming system.
+- Tags: `设计系统 / Design System` `组件 / Components` `Vue / Vue` `Material Design / Material Design`
+
+### Quasar
+
+- Website: https://quasar.dev/
+- GitHub: https://github.com/quasarframework/quasar
+- 中文说明: Vue 驱动的全栈框架，一次编写同时构建网站、PWA、移动应用和 Electron 应用。
+- English: Vue-driven full-stack framework for building websites, PWAs, mobile apps, and Electron apps with a single codebase.
+- Tags: `设计系统 / Design System` `组件 / Components` `Vue / Vue` `跨平台 / Cross-Platform`
+
+### PrimeVue
+
+- Website: https://primevue.org/
+- GitHub: https://github.com/primefaces/primevue
+- 中文说明: PrimeTek 推出的 Vue UI 组件库，包含丰富的组件集和强大的主题支持。
+- English: PrimeTek's Vue UI component library featuring a rich set of components and powerful theme support.
+- Tags: `组件 / Components` `Vue / Vue` `可定制 / Customizable`
+
+### Arco Design Vue
+
+- Website: https://arco.design/
+- GitHub: https://github.com/arco-design/arco-design-vue
+- 中文说明: 字节跳动出品的企业级设计系统 Vue 版，帮助设计师和开发者更快更好地搭建产品。
+- English: Enterprise design system by ByteDance for Vue, helping designers and developers build products faster and better.
+- Tags: `设计系统 / Design System` `组件 / Components` `Vue / Vue` `企业级 / Enterprise` `字节 / ByteDance`
+
+### TDesign Vue
+
+- Website: https://tdesign.tencent.com/
+- GitHub: https://github.com/Tencent/tdesign-vue
+- 中文说明: 腾讯出品的企业级设计系统 Vue 版，一致性、模块化、开箱即用的移动端和桌面端组件库。
+- English: Enterprise design system by Tencent for Vue, providing consistent, modular, ready-to-use components for mobile and desktop.
+- Tags: `设计系统 / Design System` `组件 / Components` `Vue / Vue` `企业级 / Enterprise` `腾讯 / Tencent`
+
+### Varlet
+
+- Website: https://varlet.gitee.io/
+- GitHub: https://github.com/varletjs/varlet
+- 中文说明: 基于 Vue 3 的移动端组件库，提供全面的移动组件解决方案。
+- English: Mobile component library based on Vue 3, providing a comprehensive solution for mobile components.
+- Tags: `组件 / Components` `Vue / Vue` `移动端 / Mobile`
+
+### Vant
+
+- Website: https://vant-ui.github.io/vant/
+- GitHub: https://github.com/vant-ui/vant
+- 中文说明: 有赞出品的轻量、可定制的移动端 Vue 组件库，开箱即用，助力快速开发移动端应用。
+- English: Lightweight, customizable mobile Vue component library by Youzan, ready-to-use for rapid mobile development.
+- Tags: `组件 / Components` `Vue / Vue` `移动端 / Mobile` `开箱即用 / Ready to Use`
+
+### NutUI
+
+- Website: https://nutui.jd.com/
+- GitHub: https://github.com/jdf2e/nutui
+- 中文说明: 京东出品的移动端 Vue 组件库，帮助开发者快速搭建移动端应用。
+- English: Mobile Vue component library by JD.com, helping developers quickly build mobile applications.
+- Tags: `组件 / Components` `Vue / Vue` `移动端 / Mobile` `京东 / JD.com`
+
+### PrimeReact
+
+- Website: https://primereact.org/
+- GitHub: https://github.com/primefaces/primereact
+- 中文说明: PrimeTek 推出的 React UI 组件库，提供丰富的组件和主题支持。
+- English: PrimeTek's React UI component library offering rich components and theme support.
+- Tags: `组件 / Components` `React / React` `可定制 / Customizable`
+
+### Arco Design React
+
+- Website: https://arco.design/
+- GitHub: https://github.com/arco-design/arco-design
+- 中文说明: 字节跳动出品的企业级设计系统 React 版，帮助设计师和开发者更快更好地搭建产品。
+- English: Enterprise design system by ByteDance for React, helping designers and developers build products faster and better.
+- Tags: `设计系统 / Design System` `组件 / Components` `React / React` `企业级 / Enterprise` `字节 / ByteDance`
+
+### TDesign React
+
+- Website: https://tdesign.tencent.com/
+- GitHub: https://github.com/Tencent/tdesign-react
+- 中文说明: 腾讯出品的企业级设计系统 React 版，一致性、模块化、开箱即用的移动端和桌面端组件库。
+- English: Enterprise design system by Tencent for React, providing consistent, modular, ready-to-use components for mobile and desktop.
+- Tags: `设计系统 / Design System` `组件 / Components` `React / React` `企业级 / Enterprise` `腾讯 / Tencent`
+
+### Mantine
+
+- Website: https://mantine.dev/
+- GitHub: https://github.com/mantinedev/mantine
+- 中文说明:  fully featured React 组件库，专注于用户体验和开发体验，内置许多高级功能。
+- English: Fully-featured React component library focused on great user and developer experience with many built-in advanced features.
+- Tags: `组件 / Components` `React / React` `可定制 / Customizable` `TypeScript / TypeScript`
+
+### TanStack UI
+
+- Website: https://tanstack.com/
+- GitHub: https://github.com/TanStack
+- 中文说明: TanStack 生态中的无头组件集合，为数据网格、表格等提供高质量的原语。
+- English: Collection of headless components from the TanStack ecosystem, providing high-quality primitives for data grids and tables.
+- Tags: `无样式 / Unstyled` `Headless / Headless` `数据表格 / Data Table`
+
+### DaisyUI
+
+- Website: https://daisyui.com/
+- GitHub: https://github.com/saadeghi/daisyui
+- 中文说明: 基于 Tailwind CSS 的组件库，提供一系列可重用的组件类，直接在 HTML 中使用。
+- English: Component library built on Tailwind CSS, providing a set of reusable component classes that you can use directly in your HTML.
+- Tags: `组件 / Components` `Tailwind / Tailwind` `CSS / CSS`
+
+### Tailwind CSS
+
+- Website: https://tailwindcss.com/
+- GitHub: https://github.com/tailwindlabs/tailwindcss
+- 中文说明: 功能类优先的 CSS 框架，直接在 HTML 中快速构建自定义界面，无需离开 HTML 编写 CSS。
+- English: Utility-first CSS framework for rapidly building custom user interfaces directly in HTML without writing custom CSS.
+- Tags: `原子化 CSS / Utility-First` `CSS 框架 / CSS Framework` `可定制 / Customizable`
+
+### Bootstrap
+
+- Website: https://getbootstrap.com/
+- GitHub: https://github.com/twbs/bootstrap
+- 中文说明: 全球最流行的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 Web 项目。
+- English: The world's most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web.
+- Tags: `CSS 框架 / CSS Framework` `响应式 / Responsive` `开箱即用 / Ready to Use`
+
+### Bulma
+
+- Website: https://bulma.io/
+- GitHub: https://github.com/jgthms/bulma
+- 中文说明: 免费开源的现代 CSS 框架，基于 Flexbox，100% 响应式，仅 CSS 无 JavaScript。
+- English: Free, open source modern CSS framework based on Flexbox, 100% responsive, CSS only with no JavaScript.
+- Tags: `CSS 框架 / CSS Framework` `响应式 / Responsive` `仅 CSS / CSS Only`
+
+### Tailwind UI
+
+- Website: https://tailwindui.com/
+- GitHub: https://github.com/tailwindlabs
+- 中文说明: Tailwind CSS 官方推出的组件库，提供精美的生产就绪组件供开发者使用。
+- English: Official component library from Tailwind CSS, providing beautiful, production-ready components for developers.
+- Tags: `组件 / Components` `Tailwind / Tailwind` `设计系统 / Design System`
+
+### Flowbite
+
+- Website: https://flowbite.com/
+- GitHub: https://github.com/themesberg/flowbite
+- 中文说明: 基于 Tailwind CSS 的开源 UI 组件库，提供响应式组件和交互式元素。
+- English: Open-source UI component library built on Tailwind CSS, providing responsive components and interactive elements.
+- Tags: `组件 / Components` `Tailwind / Tailwind` `响应式 / Responsive`
+
+### Uiverse
+
+- Website: https://uiverse.io/
+- GitHub: https://github.com/rossanodan/uiverse
+- 中文说明: 社区驱动的开源 UI 元素集合，提供大量可复制粘贴的代码片段。
+- English: Community-driven collection of open-source UI elements, providing many copy-paste ready code snippets.
+- Tags: `UI 元素 / UI Elements` `社区 / Community` `可复制 / Copy-Paste`
+
+### Panda CSS
+
+- Website: https://panda-css.com/
+- GitHub: https://github.com/chakra-ui/panda
+- 中文说明: 编译时 CSS-in-JS，针对组件开发优化，提供出色的开发体验。
+- English: Compile-time CSS-in-JS optimized for component development, delivering great developer experience.
+- Tags: `CSS-in-JS / CSS-in-JS` `样式引擎 / Styling Engine` `编译时 / Compile-Time`
+
+### Semi Design
+
+- Website: https://semi.design/
+- GitHub: https://github.com/DouyinFE/semi-design
+- 中文说明: 字节跳动出品的现代化设计系统，帮助团队高效搭建高质量产品界面。
+- English: Modern design system by ByteDance, helping teams build high-quality product interfaces efficiently.
+- Tags: `设计系统 / Design System` `组件 / Components` `React / React` `企业级 / Enterprise` `字节 / ByteDance`
+
+### Fusion Design
+
+- Website: https://fusion.design/
+- GitHub: https://github.com/alibaba-fusion
+- 中文说明: 阿里巴巴推出的企业级设计系统，致力于让设计成为驱动业务增长的引擎。
+- English: Enterprise design system from Alibaba, dedicated to making design an engine for driving business growth.
+- Tags: `设计系统 / Design System` `React / React` `企业级 / Enterprise` `阿里 / Alibaba`
+
+### JD Design
+
+- Website: https://design.jd.com/
+- GitHub: https://github.com/jdf2e
+- 中文说明: 京东官方设计系统，为京东产品提供统一的设计语言和组件实现。
+- English: Official design system from JD.com, providing unified design language and component implementations for JD products.
+- Tags: `设计系统 / Design System` `企业级 / Enterprise` `京东 / JD.com`
+
+### Zan Design
+
+- Website: https://design.youzan.com/
+- GitHub: https://github.com/youzan
+- 中文说明: 有赞官方设计系统，支撑有赞全系列产品的设计一致性和开发效率。
+- English: Official design system from Youzan, supporting design consistency and development efficiency across Youzan product lines.
+- Tags: `设计系统 / Design System` `企业级 / Enterprise` `有赞 / Youzan`
+
+### Cube UI
+
+- Website: https://didi.github.io/cube-ui/
+- GitHub: https://github.com/didi/cube-ui
+- 中文说明: 滴滴前端团队维护的基于 Vue 的移动端 UI 组件库，用于快速开发移动端应用。
+- English: Mobile UI component library based on Vue maintained by Didi frontend team, for rapid mobile application development.
+- Tags: `组件 / Components` `Vue / Vue` `移动端 / Mobile` `滴滴 / Didi`
+
+### Vuesax
+
+- Website: https://vuesax.com/
+- GitHub: https://github.com/lusaxweb/vuesax
+- 中文说明: Vue 组件库，具有新颖的设计和大量可定制的组件。
+- English: Vue component library with fresh design and a large collection of customizable components.
+- Tags: `组件 / Components` `Vue / Vue` `可定制 / Customizable`
+
+### Framework7
+
+- Website: https://framework7.io/
+- GitHub: https://github.com/framework7io/framework7
+- 中文说明: 全功能 HTML 应用框架，用于构建混合移动应用，带有原生 iOS 和 Material Design 外观。
+- English: Full-featured HTML application framework for building hybrid mobile apps with native iOS and Material Design look and feel.
+- Tags: `框架 / Framework` `移动端 / Mobile` `混合应用 / Hybrid App`
+
+### ProComponents
+
+- Website: https://procomponents.ant.design/
+- GitHub: https://github.com/ant-design/pro-components
+- 中文说明: Ant Design 官方配套的中后台模板/组件库，提供了开箱即用的模板和业务组件。
+- English: Official admin/backend template/component library paired with Ant Design, providing ready-to-use templates and business components.
+- Tags: `组件 / Components` `React / React` `中后台 / Admin` `开箱即用 / Ready to Use`
+
+### Naive UI Pro
+
+- Website: https://www.naiveui.com/zh-CN/os-theme/docs/naive-ui-pro-introduction
+- GitHub: https://github.com/tusen-ai/naive-ui-pro
+- 中文说明: Naive UI 配套的中后台解决方案，提供模板和业务组件帮助快速搭建中后台应用。
+- English: Admin/backend solution paired with Naive UI, providing templates and business components for rapid admin application development.
+- Tags: `组件 / Components` `Vue / Vue` `中后台 / Admin`
+
+### Element Pro
+
+- Website: https://pro.element-plus.org/
+- GitHub: https://github.com/element-plus/element-plus-pro
+- 中文说明: Element Plus 配套的中后台解决方案，帮助开发者快速搭建企业级中后台项目。
+- English: Admin/backend solution paired with Element Plus, helping developers quickly build enterprise-level admin projects.
+- Tags: `组件 / Components` `Vue / Vue` `中后台 / Admin` `企业级 / Enterprise`
 <!-- DESIGN_SYSTEMS:END -->

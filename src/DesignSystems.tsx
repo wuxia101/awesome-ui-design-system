@@ -19,6 +19,7 @@ interface TagOption {
 
 const preloadedImageUrls = new Set<string>();
 const PRELOAD_IMAGE_COUNT = 12;
+const REPOSITORY_URL = "https://github.com/wuxia101/awesome-ui-design-system.git";
 
 function preloadImage(url: string) {
   if (preloadedImageUrls.has(url)) {
@@ -37,6 +38,7 @@ const localeCopy: Record<
   {
     pageTitle: string;
     pageDescription: string;
+    repositoryLink: string;
     officialSite: string;
     github: string;
     controlsToggle: string;
@@ -53,6 +55,7 @@ const localeCopy: Record<
   zh: {
     pageTitle: "设计系统收藏",
     pageDescription: "收藏精选优质设计系统，覆盖设计规范、组件库与产品实践。",
+    repositoryLink: "GitHub 仓库",
     officialSite: "官网",
     github: "GitHub",
     controlsToggle: "展开搜索和标签",
@@ -68,6 +71,7 @@ const localeCopy: Record<
   en: {
     pageTitle: "Design System Collection",
     pageDescription: "A curated set of quality design systems spanning guidelines, component libraries, and product practices.",
+    repositoryLink: "GitHub Repository",
     officialSite: "Website",
     github: "GitHub",
     controlsToggle: "Show search and tags",
@@ -153,28 +157,45 @@ export function DesignSystems() {
               <h1 className="text-xl font-bold text-gray-900 sm:text-2xl">{copy.pageTitle}</h1>
               <p className="mt-1 text-sm leading-6 text-gray-500">{copy.pageDescription}</p>
             </div>
-            <div
-              className="inline-flex w-fit rounded-full border border-gray-200 bg-gray-100 p-1 self-start"
-              role="group"
-              aria-label="language switcher"
-            >
-              {(["zh", "en"] as const).map((nextLocale) => {
-                const active = locale === nextLocale;
-                return (
-                  <button
-                    key={nextLocale}
-                    type="button"
-                    onClick={() => setLocale(nextLocale)}
-                    className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-                      active
-                        ? "bg-white text-gray-900 shadow-sm"
-                        : "text-gray-500 hover:text-gray-900"
-                    }`}
-                  >
-                    {nextLocale === "zh" ? "中文" : "English"}
-                  </button>
-                );
-              })}
+            <div className="flex flex-wrap items-center gap-3 self-start">
+              <a
+                href={REPOSITORY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:border-gray-300 hover:bg-gray-50 hover:text-gray-900"
+              >
+                <svg
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  className="h-4 w-4 fill-current"
+                >
+                  <path d="M12 .5C5.65.5.5 5.8.5 12.33c0 5.23 3.3 9.67 7.88 11.23.58.11.79-.26.79-.57 0-.28-.01-1.21-.02-2.19-3.2.71-3.88-1.39-3.88-1.39-.52-1.37-1.28-1.73-1.28-1.73-1.05-.73.08-.71.08-.71 1.16.08 1.77 1.23 1.77 1.23 1.03 1.82 2.7 1.29 3.36.99.1-.77.4-1.29.72-1.58-2.55-.3-5.24-1.31-5.24-5.86 0-1.29.45-2.34 1.19-3.17-.12-.3-.52-1.51.11-3.15 0 0 .97-.32 3.19 1.21a10.8 10.8 0 0 1 5.8 0c2.21-1.53 3.18-1.21 3.18-1.21.64 1.64.24 2.85.12 3.15.74.83 1.18 1.88 1.18 3.17 0 4.56-2.7 5.56-5.26 5.85.41.36.78 1.08.78 2.18 0 1.58-.01 2.85-.01 3.23 0 .31.21.69.8.57 4.57-1.57 7.87-6 7.87-11.23C23.5 5.8 18.35.5 12 .5Z" />
+                </svg>
+                {copy.repositoryLink}
+              </a>
+              <div
+                className="inline-flex w-fit rounded-full border border-gray-200 bg-gray-100 p-1"
+                role="group"
+                aria-label="language switcher"
+              >
+                {(["zh", "en"] as const).map((nextLocale) => {
+                  const active = locale === nextLocale;
+                  return (
+                    <button
+                      key={nextLocale}
+                      type="button"
+                      onClick={() => setLocale(nextLocale)}
+                      className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                        active
+                          ? "bg-white text-gray-900 shadow-sm"
+                          : "text-gray-500 hover:text-gray-900"
+                      }`}
+                    >
+                      {nextLocale === "zh" ? "中文" : "English"}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
 

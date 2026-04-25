@@ -35,7 +35,7 @@ bun run update:readme
 bun run update:sources
 ```
 
-![screenshot](./screenshot.png)
+[![screenshot](./screenshot.png)](https://awesome-ui-design-system.vercel.app)
 
 <!-- DESIGN_SYSTEMS:START -->
 ## Collected Design Systems

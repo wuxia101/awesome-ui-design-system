@@ -36,15 +36,6 @@
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
   },
   {
-    "title": "Chakra UI",
-    "website": "https://chakra-ui.com/getting-started",
-    "repositoryLabel": "github",
-    "repositoryUrl": "https://github.com/chakra-ui/chakra-ui/tree/master/packages/chakra-ui",
-    "owner": "Chakra UI",
-    "description": "Create a theme object to include custom color, typography, and layout values. Chakra UI comes with a default theme, so this step is optional.",
-    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
-  },
-  {
     "title": "Canvas",
     "website": "https://canvas.hubspot.com/",
     "repositoryLabel": "github",
@@ -70,6 +61,24 @@
     "owner": "Cloudflare",
     "description": "A set of packages used to build UIs at Cloudflare using projects such as React.",
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Chakra UI",
+    "website": "https://chakra-ui.com/getting-started",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/chakra-ui/chakra-ui/tree/master/packages/chakra-ui",
+    "owner": "Chakra UI",
+    "description": "Create a theme object to include custom color, typography, and layout values. Chakra UI comes with a default theme, so this step is optional.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "CoreUI",
+    "website": "https://coreui.io/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Admin dashboard components and templates",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
   },
   {
     "title": "Elastic UI framework",
@@ -126,6 +135,15 @@
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
   },
   {
+    "title": "Headless UI",
+    "website": "https://headlessui.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Unstyled, accessible primitives for React/Vue",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
+  },
+  {
     "title": "Lightning Design System",
     "website": "https://react.lightningdesignsystem.com/",
     "repositoryLabel": "github",
@@ -180,6 +198,33 @@
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
   },
   {
+    "title": "Radix UI",
+    "website": "https://www.radix-ui.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Unstyled, accessible primitives for building systems",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
+  },
+  {
+    "title": "Radix Vue",
+    "website": "https://www.radix-vue.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Unstyled, accessible components for Vue.js design systems",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
+  },
+  {
+    "title": "React SuiteJS",
+    "website": "https://rsuitejs.com/en/",
+    "repositoryLabel": "github",
+    "repositoryUrl": "https://github.com/rsuite/rsuite",
+    "owner": "React Suitejs",
+    "description": "A suite of React components, sensible UI design, and a friendly development experience.",
+    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
     "title": "React-bootstrap",
     "website": "https://react-bootstrap.github.io/",
     "repositoryLabel": "github",
@@ -198,15 +243,6 @@
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
   },
   {
-    "title": "React SuiteJS",
-    "website": "https://rsuitejs.com/en/",
-    "repositoryLabel": "github",
-    "repositoryUrl": "https://github.com/rsuite/rsuite",
-    "owner": "React Suitejs",
-    "description": "A suite of React components, sensible UI design, and a friendly development experience.",
-    "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
-  },
-  {
     "title": "RebaseJS",
     "website": "https://rebassjs.org/",
     "repositoryLabel": "github",
@@ -214,6 +250,15 @@
     "owner": "React UI components built with Styled System.",
     "description": null,
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Reshaped",
+    "website": "https://reshaped.so/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Professional design system for React with customizable components and Figma integration",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
   },
   {
     "title": "Seek Style Guide",
@@ -232,6 +277,15 @@
     "owner": null,
     "description": "Semantic-Ui - Semantic UI React is the official React integration for Semantic UI .",
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "ShadCN UI",
+    "website": "https://ui.shadcn.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "Tailwind + Radix based components and blocks",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
   },
   {
     "title": "SpareBank 1's Design System",

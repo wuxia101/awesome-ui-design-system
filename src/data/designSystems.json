@@ -358,5 +358,665 @@
         "en": "Enterprise"
       }
     ]
+  },
+  {
+    "title": "Canvas",
+    "description": {
+      "zh": "HubSpot 的设计系统，用统一的组件、样式和实践支撑其产品体验与品牌一致性。",
+      "en": "HubSpot's design system that supports product consistency with shared components, styles, and implementation practices."
+    },
+    "website": "https://canvas.hubspot.com/",
+    "github": "https://github.com/HubSpot/canvas",
+    "image": "https://picsum.photos/seed/canvas/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "品牌一致性",
+        "en": "Brand Consistency"
+      }
+    ]
+  },
+  {
+    "title": "cf-ui",
+    "description": {
+      "zh": "Cloudflare 使用的一组 React UI 包，适合构建统一的内部产品和运维界面。",
+      "en": "A set of React UI packages used at Cloudflare to build consistent internal products and operational interfaces."
+    },
+    "website": "https://cloudflare.github.io/cf-ui/",
+    "github": "https://github.com/cloudflare/cf-ui",
+    "image": "https://picsum.photos/seed/cfui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "内部工具",
+        "en": "Internal Tools"
+      }
+    ]
+  },
+  {
+    "title": "Elastic UI framework",
+    "description": {
+      "zh": "Elastic 的设计与前端组件框架，覆盖布局、样式和可复用组件，适合数据与运维类产品。",
+      "en": "Elastic's design and frontend component framework covering layouts, styling, and reusable UI for data-heavy and operational products."
+    },
+    "website": "https://elastic.github.io/eui/#/",
+    "github": "https://github.com/elastic/eui",
+    "image": "https://picsum.photos/seed/eui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "数据密集",
+        "en": "Data Dense"
+      }
+    ]
+  },
+  {
+    "title": "Evergreen",
+    "description": {
+      "zh": "Segment 推出的务实型 React UI 套件，强调稳定迭代、清晰模式和产品长期演进能力。",
+      "en": "Segment's pragmatic React UI kit focused on stable iteration, clear patterns, and long-term product evolution."
+    },
+    "website": "https://evergreen.segment.com/get-started/introduction",
+    "github": "https://github.com/segmentio/evergreen",
+    "image": "https://picsum.photos/seed/evergreen/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      },
+      {
+        "zh": "务实",
+        "en": "Pragmatic"
+      }
+    ]
+  },
+  {
+    "title": "Gestalt",
+    "description": {
+      "zh": "Pinterest 的 React 组件系统，围绕其产品视觉语言构建设计一致性和开发效率。",
+      "en": "Pinterest's React component system built to express its product design language with consistency and developer efficiency."
+    },
+    "website": "https://pinterest.github.io/gestalt/",
+    "github": "https://github.com/pinterest/gestalt",
+    "image": "https://picsum.photos/seed/gestalt/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "品牌一致性",
+        "en": "Brand Consistency"
+      }
+    ]
+  },
+  {
+    "title": "Hack Club Design System",
+    "description": {
+      "zh": "Hack Club 的设计系统，强调速度、一致性和适合社区产品的前端最佳实践。",
+      "en": "Hack Club's design system focused on speed, consistency, and frontend best practices for community-driven products."
+    },
+    "website": "https://design.hackclub.com",
+    "github": "https://github.com/hackclub/design-system",
+    "image": "https://picsum.photos/seed/hackclubdesignsystem/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "最佳实践",
+        "en": "Best Practices"
+      }
+    ]
+  },
+  {
+    "title": "Lightning Design System",
+    "description": {
+      "zh": "Salesforce Lightning 设计系统的 React 实现，适合企业工作流和复杂业务界面。",
+      "en": "A React implementation of Salesforce Lightning Design System for enterprise workflows and complex business interfaces."
+    },
+    "website": "https://react.lightningdesignsystem.com/",
+    "github": "https://github.com/salesforce/design-system-react",
+    "image": "https://picsum.photos/seed/lightningdesignsystem/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Pivotal UI",
+    "description": {
+      "zh": "Pivotal 品牌风格下的一组 React 组件，适合统一企业产品的视觉与交互表达。",
+      "en": "A set of React components styled for the Pivotal brand, useful for unifying visual and interaction patterns across enterprise products."
+    },
+    "website": "https://styleguide.pivotal.io/",
+    "github": "https://github.com/pivotal-cf/pivotal-ui",
+    "image": "https://picsum.photos/seed/pivotalui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "品牌一致性",
+        "en": "Brand Consistency"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Pluralsight Design System",
+    "description": {
+      "zh": "Pluralsight 的设计系统，提供统一的 UI 构件与规范，帮助多产品维持一致体验。",
+      "en": "Pluralsight's design system providing shared UI building blocks and guidelines to keep product experiences consistent."
+    },
+    "website": "https://design-system.pluralsight.com/",
+    "github": "https://github.com/pluralsight/design-system",
+    "image": "https://picsum.photos/seed/pluralsightdesignsystem/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      }
+    ]
+  },
+  {
+    "title": "Priceline One",
+    "description": {
+      "zh": "Priceline 的设计系统，围绕速度、一致性和产品最佳实践来组织组件与模式。",
+      "en": "Priceline's design system centered on speed, consistency, and product best practices across shared components and patterns."
+    },
+    "website": "https://pricelinelabs.github.io/design-system/",
+    "github": "https://github.com/pricelinelabs/design-system",
+    "image": "https://picsum.photos/seed/pricelineone/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "最佳实践",
+        "en": "Best Practices"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      }
+    ]
+  },
+  {
+    "title": "React-bootstrap",
+    "description": {
+      "zh": "将 Bootstrap 体验重构为 React 组件体系，适合快速搭建传统 Web 应用与后台页面。",
+      "en": "A React-native rebuild of Bootstrap that helps teams quickly ship traditional web applications and admin experiences."
+    },
+    "website": "https://react-bootstrap.github.io/",
+    "github": "https://github.com/react-bootstrap/react-bootstrap",
+    "image": "https://picsum.photos/seed/reactbootstrap/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Bootstrap",
+        "en": "Bootstrap"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "react-desktop",
+    "description": {
+      "zh": "面向 Web 的桌面风格 React 组件库，模拟 macOS 和 Windows 的原生桌面体验。",
+      "en": "A desktop-style React component library for the web that recreates native macOS and Windows interface patterns."
+    },
+    "website": "http://reactdesktop.js.org/",
+    "github": "https://github.com/gabrielbull/react-desktop",
+    "image": "https://picsum.photos/seed/reactdesktop/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "桌面风格",
+        "en": "Desktop Style"
+      },
+      {
+        "zh": "原生体验",
+        "en": "Native-like"
+      }
+    ]
+  },
+  {
+    "title": "React SuiteJS",
+    "description": {
+      "zh": "RSuite 提供完整的 React 组件集、友好的开发体验和适合业务系统的设计模式。",
+      "en": "RSuite offers a broad React component suite, a friendly developer experience, and patterns suited to business applications."
+    },
+    "website": "https://rsuitejs.com/en/",
+    "github": "https://github.com/rsuite/rsuite",
+    "image": "https://picsum.photos/seed/rsuitejs/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "开发体验",
+        "en": "Developer Experience"
+      }
+    ]
+  },
+  {
+    "title": "RebaseJS",
+    "description": {
+      "zh": "基于 Styled System 的 React UI 组件集合，强调主题化、组合性与一致的样式约束。",
+      "en": "A set of React UI components built with Styled System, emphasizing theming, composability, and consistent styling constraints."
+    },
+    "website": "https://rebassjs.org/",
+    "github": "https://github.com/rebassjs/rebass",
+    "image": "https://picsum.photos/seed/rebassjs/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "主题",
+        "en": "Theming"
+      },
+      {
+        "zh": "可组合",
+        "en": "Composable"
+      }
+    ]
+  },
+  {
+    "title": "Seek Style Guide",
+    "description": {
+      "zh": "SEEK 的在线风格指南与 React 组件体系，用于在多产品环境中维持统一体验。",
+      "en": "SEEK's living style guide and React component system for maintaining consistency across multiple product surfaces."
+    },
+    "website": "https://seek-oss.github.io/seek-style-guide/",
+    "github": "https://github.com/seek-oss/seek-style-guide",
+    "image": "https://picsum.photos/seed/seekstyleguide/800/450.jpg",
+    "tags": [
+      {
+        "zh": "规范",
+        "en": "Guidelines"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "品牌一致性",
+        "en": "Brand Consistency"
+      }
+    ]
+  },
+  {
+    "title": "Semantic-UI-React",
+    "description": {
+      "zh": "Semantic UI 的官方 React 集成，适合以语义化组件方式快速构建传统业务界面。",
+      "en": "The official React integration for Semantic UI, suitable for rapidly building traditional business interfaces with semantic components."
+    },
+    "website": "https://react.semantic-ui.com/",
+    "github": "https://github.com/Semantic-Org/Semantic-UI-React",
+    "image": "https://picsum.photos/seed/semanticuireact/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "语义化",
+        "en": "Semantic"
+      },
+      {
+        "zh": "开箱即用",
+        "en": "Ready to Use"
+      }
+    ]
+  },
+  {
+    "title": "SpareBank 1's Design System",
+    "description": {
+      "zh": "SpareBank 1 的设计系统，用统一的跨职能语言来保证金融产品的一致设计与交付。",
+      "en": "SpareBank 1's design system creates a shared cross-disciplinary language for delivering consistent financial product experiences."
+    },
+    "website": "https://design.sparebank1.no/",
+    "github": "https://github.com/SpareBank1/designsystem",
+    "image": "https://picsum.photos/seed/sparebank1designsystem/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "品牌一致性",
+        "en": "Brand Consistency"
+      }
+    ]
+  },
+  {
+    "title": "Spark Design System",
+    "description": {
+      "zh": "Spark 是面向金融科技产品的设计系统，提供模式与组件以支持统一的产品界面。",
+      "en": "Spark is a design system for fintech products, providing patterns and components for a unified product interface."
+    },
+    "website": "https://sparkdesignsystem.com/",
+    "github": "https://github.com/sparkdesignsystem/spark-design-system",
+    "image": "https://picsum.photos/seed/sparkdesignsystem/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "金融科技",
+        "en": "Fintech"
+      },
+      {
+        "zh": "产品设计",
+        "en": "Product Design"
+      }
+    ]
+  },
+  {
+    "title": "Theme UI",
+    "description": {
+      "zh": "Theme UI 基于约束式设计原则构建可主题化的 React 应用，适合设计系统驱动开发。",
+      "en": "Theme UI helps teams build themeable React applications based on constraint-driven design principles."
+    },
+    "website": "https://theme-ui.com/",
+    "github": "https://github.com/system-ui/theme-ui",
+    "image": "https://picsum.photos/seed/themeui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "主题",
+        "en": "Theming"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Headless UI",
+    "description": {
+      "zh": "Tailwind Labs 推出的无样式可访问组件原语，支持 React 和 Vue，适合构建设计系统底座。",
+      "en": "Tailwind Labs' unstyled, accessible component primitives for React and Vue, well suited as a foundation for design systems."
+    },
+    "website": "https://headlessui.com/",
+    "github": "https://github.com/tailwindlabs/headlessui",
+    "image": "https://picsum.photos/seed/headlessui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "无样式",
+        "en": "Unstyled"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      }
+    ]
+  },
+  {
+    "title": "Radix UI",
+    "description": {
+      "zh": "面向高质量设计系统的无样式可访问组件原语，强调可组合性、稳定性与开放性。",
+      "en": "Unstyled, accessible component primitives for high-quality design systems, focused on composability, stability, and openness."
+    },
+    "website": "https://www.radix-ui.com/",
+    "github": "https://github.com/radix-ui/primitives",
+    "image": "https://picsum.photos/seed/radixui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "无样式",
+        "en": "Unstyled"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "可组合",
+        "en": "Composable"
+      }
+    ]
+  },
+  {
+    "title": "CoreUI",
+    "description": {
+      "zh": "CoreUI 提供面向后台和仪表盘场景的 UI 组件与模板，覆盖 Bootstrap、React、Angular 和 Vue 生态。",
+      "en": "CoreUI provides UI components and templates for admin and dashboard products across Bootstrap, React, Angular, and Vue."
+    },
+    "website": "https://coreui.io/",
+    "github": "https://github.com/coreui/coreui-react",
+    "image": "https://picsum.photos/seed/coreui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "模板",
+        "en": "Templates"
+      }
+    ]
+  },
+  {
+    "title": "Radix Vue",
+    "description": {
+      "zh": "Radix UI 在 Vue 生态中的实现，提供无样式、可访问的组件原语，适合搭建设计系统和复杂应用。",
+      "en": "A Vue implementation inspired by Radix UI, providing unstyled and accessible primitives for design systems and complex applications."
+    },
+    "website": "https://www.radix-vue.com/",
+    "github": "https://github.com/unovue/radix-vue",
+    "image": "https://picsum.photos/seed/radixvue/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "无样式",
+        "en": "Unstyled"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "可组合",
+        "en": "Composable"
+      }
+    ]
   }
 ]

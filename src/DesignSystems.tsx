@@ -24,6 +24,9 @@ const localeCopy: Record<
     pageDescription: string;
     officialSite: string;
     github: string;
+    controlsToggle: string;
+    controlsHide: string;
+    activeFilters: (count: number) => string;
     searchPlaceholder: string;
     searchLabel: string;
     allTags: string;
@@ -37,6 +40,9 @@ const localeCopy: Record<
     pageDescription: "收藏精选优质设计系统，覆盖设计规范、组件库与产品实践。",
     officialSite: "官网",
     github: "GitHub",
+    controlsToggle: "展开搜索和标签",
+    controlsHide: "收起搜索和标签",
+    activeFilters: (count) => `已启用 ${count} 个筛选`,
     searchPlaceholder: "搜索名称、描述或标签",
     searchLabel: "搜索",
     allTags: "全部",
@@ -49,6 +55,9 @@ const localeCopy: Record<
     pageDescription: "A curated set of quality design systems spanning guidelines, component libraries, and product practices.",
     officialSite: "Website",
     github: "GitHub",
+    controlsToggle: "Show search and tags",
+    controlsHide: "Hide search and tags",
+    activeFilters: (count) => `${count} active filter${count === 1 ? "" : "s"}`,
     searchPlaceholder: "Search by title, description, or tag",
     searchLabel: "Search",
     allTags: "All",
@@ -62,6 +71,7 @@ export function DesignSystems() {
   const [locale, setLocale] = useState<Locale>("zh");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isMobileControlsOpen, setIsMobileControlsOpen] = useState(false);
   const copy = localeCopy[locale];
   const systems = designSystems as DesignSystem[];
   const tagMap = new Map<string, TagOption>();
@@ -81,6 +91,7 @@ export function DesignSystems() {
     a.label[locale].localeCompare(b.label[locale], locale === "zh" ? "zh-CN" : "en"),
   );
   const normalizedQuery = searchQuery.trim().toLocaleLowerCase();
+  const activeFilterCount = (selectedTag ? 1 : 0) + (normalizedQuery ? 1 : 0);
   const filteredSystems = systems.filter((system) => {
     const matchesTag = selectedTag
       ? system.tags.some((tag) => tag.en === selectedTag)
@@ -145,6 +156,28 @@ export function DesignSystems() {
           </div>
 
           <div className="flex flex-col gap-3">
+            <div className="flex items-center justify-between gap-3 md:hidden">
+              <div className="min-w-0">
+                <p className="text-sm font-medium text-gray-700">{copy.resultCount(filteredSystems.length)}</p>
+                {activeFilterCount > 0 && (
+                  <p className="mt-1 text-xs text-gray-500">{copy.activeFilters(activeFilterCount)}</p>
+                )}
+              </div>
+              <button
+                type="button"
+                onClick={() => setIsMobileControlsOpen((current) => !current)}
+                className="shrink-0 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:border-gray-300 hover:text-gray-900"
+                aria-expanded={isMobileControlsOpen}
+                aria-controls="mobile-search-filters"
+              >
+                {isMobileControlsOpen ? copy.controlsHide : copy.controlsToggle}
+              </button>
+            </div>
+
+            <div
+              id="mobile-search-filters"
+              className={`${isMobileControlsOpen ? "flex" : "hidden"} flex-col gap-3 md:flex`}
+            >
             <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
               <label className="flex min-w-0 flex-col gap-2 lg:max-w-md lg:flex-1">
                 <span className="text-sm font-medium text-gray-700">{copy.searchLabel}</span>
@@ -156,7 +189,7 @@ export function DesignSystems() {
                   className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900 outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
                 />
               </label>
-              <div className="flex flex-col gap-2 lg:items-end">
+              <div className="hidden md:flex md:flex-col md:gap-2 lg:items-end">
                 <p className="text-sm font-medium text-gray-700">{copy.filterLabel}</p>
                 <p className="text-sm text-gray-500">{copy.resultCount(filteredSystems.length)}</p>
               </div>
@@ -192,6 +225,7 @@ export function DesignSystems() {
                   );
                 })}
               </div>
+            </div>
             </div>
           </div>
         </div>

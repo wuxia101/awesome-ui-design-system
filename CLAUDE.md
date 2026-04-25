@@ -126,10 +126,16 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
    - 从其中的链接抓取原始数据
    - 生成结构化补充数据文件，默认放在 `src/data/sourceDesignSystems.json`
    - 原始来源数据与人工整理后的主数据分开维护
+   - 来源既可能是 Markdown 列表，也可能是按章节组织的 Markdown 表格；更新抓取逻辑时优先复用现有脚本能力
+   - `src/data/sourceDesignSystems.json` 只表示“原始抓取结果”，不等于最终页面展示数据
+   - 页面、README 和卡片列表一律以 `src/data/designSystems.json` 为准
+   - 只有当条目补齐中英文说明、官网、GitHub、图片和标签后，才允许从原始来源提升到主数据
+   - 若来源条目存在仓库地址缺失、非 GitHub 地址不适合当前展示按钮、或与现有主数据语义重复，可暂时保留在原始来源数据中，不强行提升
 5. README 默认同步更新，并且优先脚本化：
    - 编写脚本根据 JSON 自动更新 README
    - README 中保留固定标记区块，避免覆盖手写说明
    - 在 README 中写明如何执行同步命令
+   - README 需要明确说明 `designSystems.json` 与 `sourceDesignSystems.json` 的职责差异
 6. 新增脚本时，默认在 `scripts/` 下创建，并在 `package.json` 中补充对应命令。
 7. 修改完成后，默认执行能跑通的验证命令，例如：
    - `bun run update:readme`

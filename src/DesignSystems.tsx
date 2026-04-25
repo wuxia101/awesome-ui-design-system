@@ -102,22 +102,24 @@ export function DesignSystems() {
                   )}
                 </div>
                 <div className="p-5">
-                  <div className="flex flex-wrap gap-2">
-                    {ds.tags.map((tag) => (
-                      <span
-                        key={`${ds.title}-${tag.en}`}
-                        className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700"
-                      >
-                        {`【${tag[locale]}】`}
-                      </span>
-                    ))}
-                  </div>
-                  <h3 className="mt-4 text-lg font-semibold text-gray-900 transition-colors group-hover:text-blue-600">
+                  <h3 className="text-lg font-semibold text-gray-900 transition-colors group-hover:text-blue-600">
                     {ds.title}
                   </h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-3">
                     {ds.description[locale]}
                   </p>
+                  <div className="mt-4 border-t border-gray-100 pt-4">
+                    <div className="flex flex-wrap gap-2">
+                      {ds.tags.map((tag) => (
+                        <span
+                          key={`${ds.title}-${tag.en}`}
+                          className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600 transition-colors group-hover:bg-blue-50 group-hover:text-blue-700"
+                        >
+                          {`【${tag[locale]}】`}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                   <div className="mt-5 flex gap-3">
                     <a
                       href={ds.website}

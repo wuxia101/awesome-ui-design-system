@@ -35,8 +35,7 @@ main:
           type: knowledge:update
           options:
             include:
-              - "**/**.md"
-              - "**/**.json"
+              - "**/*.md"
             exclude:
               - "node_modules/**"
               - ".git/**"
@@ -47,6 +46,8 @@ main:
         build:
           dockerfile: ./Dockerfile
       stages:
+        - name: install-deps
+          script: bun install
         - name: build
           script: bun run build
 

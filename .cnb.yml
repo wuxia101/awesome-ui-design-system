@@ -35,12 +35,8 @@ main:
           type: knowledge:update
           options:
             include:
-<<<<<<< HEAD
               - "**/*.md"
-=======
-              - "**/**.md"
               - "**/**.json"
->>>>>>> 9ec76c6 (feat: 支持 CNB 知识库和 NPC)
             exclude:
               - "node_modules/**"
               - ".git/**"
@@ -51,11 +47,8 @@ main:
         build:
           dockerfile: ./Dockerfile
       stages:
-<<<<<<< HEAD
         - name: install-deps
           script: bun install
-=======
->>>>>>> 9ec76c6 (feat: 支持 CNB 知识库和 NPC)
         - name: build
           script: bun run build
 

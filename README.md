@@ -601,4 +601,12 @@ bun run update:sources
 - 中文说明: 基于有限状态机的跨框架无头 UI 组件逻辑库，由 Chakra UI 团队维护，支持 React、Vue、Solid 和 Svelte，为可访问设计系统提供坚实基座。
 - English: A framework-agnostic headless UI component logic library powered by finite state machines from the Chakra UI team, supporting React, Vue, Solid, and Svelte for accessible design system foundations.
 - Tags: `无样式 / Unstyled` `Headless / Headless` `可访问性 / Accessibility` `跨框架 / Cross-Framework` `设计系统 / Design System`
+
+### Notus Svelte
+
+- Website: https://www.creative-tim.com/product/notus-svelte
+- GitHub: https://github.com/creativetimofficial/notus-svelte
+- 中文说明: Creative Tim 出品的免费 Svelte + Tailwind CSS 管理面板 UI Kit，提供完整的后台页面模板和组件，适合快速搭建 Svelte 技术栈的管理系统。
+- English: A free Svelte + Tailwind CSS admin dashboard UI Kit by Creative Tim, offering complete admin page templates and components for rapidly building Svelte-based management systems.
+- Tags: `UI Kit / UI Kit` `Svelte / Svelte` `Tailwind / Tailwind` `后台 / Admin` `免费 / Free`
 <!-- DESIGN_SYSTEMS:END -->

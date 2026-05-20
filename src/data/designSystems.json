@@ -1994,5 +1994,37 @@
         "en": "Free"
       }
     ]
+  },
+  {
+    "title": "Notus Svelte",
+    "description": {
+      "zh": "Creative Tim 出品的免费 Svelte + Tailwind CSS 管理面板 UI Kit，提供完整的后台页面模板和组件，适合快速搭建 Svelte 技术栈的管理系统。",
+      "en": "A free Svelte + Tailwind CSS admin dashboard UI Kit by Creative Tim, offering complete admin page templates and components for rapidly building Svelte-based management systems."
+    },
+    "website": "https://www.creative-tim.com/product/notus-svelte",
+    "github": "https://github.com/creativetimofficial/notus-svelte",
+    "image": "https://picsum.photos/seed/notussvelte/800/450.jpg",
+    "tags": [
+      {
+        "zh": "UI Kit",
+        "en": "UI Kit"
+      },
+      {
+        "zh": "Svelte",
+        "en": "Svelte"
+      },
+      {
+        "zh": "Tailwind",
+        "en": "Tailwind"
+      },
+      {
+        "zh": "后台",
+        "en": "Admin"
+      },
+      {
+        "zh": "免费",
+        "en": "Free"
+      }
+    ]
   }
 ]

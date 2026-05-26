@@ -72,6 +72,15 @@
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
   },
   {
+    "title": "Chakra UI",
+    "website": "https://chakra-ui.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "A simple, modular, and accessible React component library that provides the building blocks for creating high-quality web apps and design systems.",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
+  },
+  {
     "title": "CoreUI",
     "website": "https://coreui.io/",
     "repositoryLabel": null,
@@ -160,6 +169,15 @@
     "owner": "Google",
     "description": "React components that implement Google's Material Design.",
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "Park UI",
+    "website": "https://park-ui.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "A beautifully designed, framework-agnostic component library built on Ark UI and Panda CSS. Supports React, Solid, and Vue with gorgeous defaults.",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
   },
   {
     "title": "Pivotal UI",
@@ -322,5 +340,14 @@
     "owner": "Hudl",
     "description": "The system includes components, visual guidelines, language and additional resources to help you build more cohesive product interfaces.",
     "sourceUrl": "https://raw.githubusercontent.com/rririanto/react-ui-design-system/refs/heads/master/README.md"
+  },
+  {
+    "title": "ZagJS",
+    "website": "https://zagjs.com/",
+    "repositoryLabel": null,
+    "repositoryUrl": null,
+    "owner": null,
+    "description": "A framework-agnostic, headless UI library powered by finite state machines. Provides unstyled, accessible component logic for React, Vue, Solid, and Svelte.",
+    "sourceUrl": "https://raw.githubusercontent.com/al-husayn/awesome-ui-resources/refs/heads/main/README.md"
   }
 ]

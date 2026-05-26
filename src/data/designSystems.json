@@ -1866,5 +1866,101 @@
         "en": "Enterprise"
       }
     ]
+  },
+  {
+    "title": "Park UI",
+    "description": {
+      "zh": "基于 Ark UI 和 Panda CSS 构建的跨框架组件库，支持 React、Solid 和 Vue，提供精美的预设样式与可访问的内置组件。",
+      "en": "A framework-agnostic component library built on Ark UI and Panda CSS, supporting React, Solid, and Vue with beautiful presets and accessible built-in components."
+    },
+    "website": "https://park-ui.com/",
+    "github": "https://github.com/chakra-ui/park-ui",
+    "image": "https://picsum.photos/seed/parkui/800/450.jpg",
+    "tags": [
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "跨框架",
+        "en": "Cross-Framework"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Vue",
+        "en": "Vue"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "Reshaped",
+    "description": {
+      "zh": "专业打造的 React 与 Figma 设计系统组件库，提供设计令牌、React 组件和 Figma 资产，适合构建设计系统或直接用于生产环境产品。",
+      "en": "A professionally crafted React & Figma design system library with design tokens, React components, and Figma assets for building design systems or production-grade products."
+    },
+    "website": "https://reshaped.so/",
+    "github": "https://github.com/reshaped-ui/reshaped",
+    "image": "https://picsum.photos/seed/reshaped/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "Figma",
+        "en": "Figma"
+      },
+      {
+        "zh": "可定制",
+        "en": "Customizable"
+      }
+    ]
+  },
+  {
+    "title": "ZagJS",
+    "description": {
+      "zh": "基于有限状态机的跨框架无头 UI 组件逻辑库，由 Chakra UI 团队维护，支持 React、Vue、Solid 和 Svelte，为可访问设计系统提供坚实基座。",
+      "en": "A framework-agnostic headless UI component logic library powered by finite state machines from the Chakra UI team, supporting React, Vue, Solid, and Svelte for accessible design system foundations."
+    },
+    "website": "https://zagjs.com/",
+    "github": "https://github.com/chakra-ui/zag",
+    "image": "https://picsum.photos/seed/zagjs/800/450.jpg",
+    "tags": [
+      {
+        "zh": "无样式",
+        "en": "Unstyled"
+      },
+      {
+        "zh": "Headless",
+        "en": "Headless"
+      },
+      {
+        "zh": "可访问性",
+        "en": "Accessibility"
+      },
+      {
+        "zh": "跨框架",
+        "en": "Cross-Framework"
+      },
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      }
+    ]
   }
 ]

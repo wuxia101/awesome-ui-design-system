@@ -575,4 +575,28 @@ bun run update:sources
 - 中文说明: Element Plus 配套的中后台解决方案，帮助开发者快速搭建企业级中后台项目。
 - English: Admin/backend solution paired with Element Plus, helping developers quickly build enterprise-level admin projects.
 - Tags: `组件 / Components` `Vue / Vue` `中后台 / Admin` `企业级 / Enterprise`
+
+### Park UI
+
+- Website: https://park-ui.com/
+- GitHub: https://github.com/chakra-ui/park-ui
+- 中文说明: 基于 Ark UI 和 Panda CSS 构建的跨框架组件库，支持 React、Solid 和 Vue，提供精美的预设样式与可访问的内置组件。
+- English: A framework-agnostic component library built on Ark UI and Panda CSS, supporting React, Solid, and Vue with beautiful presets and accessible built-in components.
+- Tags: `组件 / Components` `跨框架 / Cross-Framework` `React / React` `Vue / Vue` `可定制 / Customizable`
+
+### Reshaped
+
+- Website: https://reshaped.so/
+- GitHub: https://github.com/reshaped-ui/reshaped
+- 中文说明: 专业打造的 React 与 Figma 设计系统组件库，提供设计令牌、React 组件和 Figma 资产，适合构建设计系统或直接用于生产环境产品。
+- English: A professionally crafted React & Figma design system library with design tokens, React components, and Figma assets for building design systems or production-grade products.
+- Tags: `设计系统 / Design System` `组件 / Components` `React / React` `Figma / Figma` `可定制 / Customizable`
+
+### ZagJS
+
+- Website: https://zagjs.com/
+- GitHub: https://github.com/chakra-ui/zag
+- 中文说明: 基于有限状态机的跨框架无头 UI 组件逻辑库，由 Chakra UI 团队维护，支持 React、Vue、Solid 和 Svelte，为可访问设计系统提供坚实基座。
+- English: A framework-agnostic headless UI component logic library powered by finite state machines from the Chakra UI team, supporting React, Vue, Solid, and Svelte for accessible design system foundations.
+- Tags: `无样式 / Unstyled` `Headless / Headless` `可访问性 / Accessibility` `跨框架 / Cross-Framework` `设计系统 / Design System`
 <!-- DESIGN_SYSTEMS:END -->

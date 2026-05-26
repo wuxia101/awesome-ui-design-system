@@ -609,12 +609,4 @@ bun run update:sources
 - 中文说明: Creative Tim 出品的免费 Svelte + Tailwind CSS 管理面板 UI Kit，提供完整的后台页面模板和组件，适合快速搭建 Svelte 技术栈的管理系统。
 - English: A free Svelte + Tailwind CSS admin dashboard UI Kit by Creative Tim, offering complete admin page templates and components for rapidly building Svelte-based management systems.
 - Tags: `UI Kit / UI Kit` `Svelte / Svelte` `Tailwind / Tailwind` `后台 / Admin` `免费 / Free`
-
-### Notus Svelte
-
-- Website: https://www.creative-tim.com/product/notus-svelte
-- GitHub: https://github.com/creativetimofficial/notus-svelte
-- 中文说明: Creative Tim 出品的免费 Svelte + Tailwind CSS 管理面板 UI Kit，提供完整的后台页面模板和组件，适合快速搭建 Svelte 技术栈的管理系统。
-- English: A free Svelte + Tailwind CSS admin dashboard UI Kit by Creative Tim, offering complete admin page templates and components for rapidly building Svelte-based management systems.
-- Tags: `UI Kit / UI Kit` `Svelte / Svelte` `Tailwind / Tailwind` `后台 / Admin` `免费 / Free`
 <!-- DESIGN_SYSTEMS:END -->

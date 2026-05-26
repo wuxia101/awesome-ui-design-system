@@ -2,8 +2,15 @@
 
 ## 2026-05-26
 
-- **来源状态**: SOURCE.md 中 2 个来源无变化。update:sources 提取 39 条到 sourceDesignSystems.json。
-- **新增候选识别**: 对比 designSystems.json（70 条），只有 Atlaskit（Bitbucket/语义重叠）和 Uniform（无 GitHub）不在其中，均为上次已评估并拒绝的条目。
-- **评估结果**: 本日无新增候选条目。数据无需更新。
-- **README/构建**: 无数据变更，未执行 update:readme 和 build。
-- **提交**: 无变更需要提交。
+- **来源状态**: SOURCE.md 中 2 个来源无变化。
+- **update:sources**: 成功从 2 个来源提取 39 条原始条目到 sourceDesignSystems.json。
+- **新增候选识别**: 在 sourceDesignSystems.json 中发现 5 个不在 designSystems.json 中的候选条目。
+- **评估结果**:
+  - ✅ **Park UI** — 提升。GitHub: chakra-ui/park-ui，跨框架组件库（Ark UI + Panda CSS）
+  - ✅ **Reshaped** — 提升。GitHub: reshaped-ui/reshaped，React + Figma 设计系统
+  - ✅ **ZagJS** — 提升。GitHub: chakra-ui/zag，有限状态机驱动的无头 UI 组件逻辑
+  - ❌ **Uniform (Hudl)** — 无 GitHub 仓库，不符合规则
+  - ❌ **Atlaskit** — Bitbucket 仓库（非 GitHub），且与 Atlassian Design 语义重叠
+- **数据更新**: designSystems.json 从 67 条增至 70 条。
+- **README**: 已同步更新（70 条）。
+- **构建**: `bun run build` 通过。

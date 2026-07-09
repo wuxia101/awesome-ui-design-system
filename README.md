@@ -58,6 +58,14 @@ bun run update:sources
 - English: A mainstream Vue 3 component library and design language focused on ready-to-use building blocks, broad component coverage, and productivity for admin and content-heavy products.
 - Tags: `设计系统 / Design System` `组件 / Components` `Vue / Vue` `后台 / Admin` `开箱即用 / Ready to Use`
 
+### Astryx
+
+- Website: https://facebook.github.io/astryx/
+- GitHub: https://github.com/facebook/astryx
+- 中文说明: Meta 开源的设计系统，8 年打磨，驱动 13,000+ 内部应用，提供 150+ 可访问组件、7 套主题、StyleX 样式引擎，内置 AI Agent 对称 CLI 与 swizzle eject 能力，为人类与 AI 协同构建而设计。
+- English: Meta's open-source design system grown over 8 years, powering 13,000+ internal apps with 150+ accessible components, 7 themes, StyleX styling engine, AI-agent-symmetric CLI, and swizzle eject — built for people and agents working together.
+- Tags: `设计系统 / Design System` `组件 / Components` `React / React` `企业级 / Enterprise` `AI 协同 / AI-Ready` `Meta / Meta`
+
 ### Atlassian Design
 
 - Website: https://atlassian.design/

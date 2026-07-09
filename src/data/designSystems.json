@@ -64,6 +64,42 @@
     ]
   },
   {
+    "title": "Astryx",
+    "description": {
+      "zh": "Meta 开源的设计系统，8 年打磨，驱动 13,000+ 内部应用，提供 150+ 可访问组件、7 套主题、StyleX 样式引擎，内置 AI Agent 对称 CLI 与 swizzle eject 能力，为人类与 AI 协同构建而设计。",
+      "en": "Meta's open-source design system grown over 8 years, powering 13,000+ internal apps with 150+ accessible components, 7 themes, StyleX styling engine, AI-agent-symmetric CLI, and swizzle eject — built for people and agents working together."
+    },
+    "website": "https://facebook.github.io/astryx/",
+    "github": "https://github.com/facebook/astryx",
+    "image": "https://picsum.photos/seed/astryx/800/450.jpg",
+    "tags": [
+      {
+        "zh": "设计系统",
+        "en": "Design System"
+      },
+      {
+        "zh": "组件",
+        "en": "Components"
+      },
+      {
+        "zh": "React",
+        "en": "React"
+      },
+      {
+        "zh": "企业级",
+        "en": "Enterprise"
+      },
+      {
+        "zh": "AI 协同",
+        "en": "AI-Ready"
+      },
+      {
+        "zh": "Meta",
+        "en": "Meta"
+      }
+    ]
+  },
+  {
     "title": "Atlassian Design",
     "description": {
       "zh": "Atlassian 官方设计系统，为 Jira、Confluence 等产品统一视觉语言、设计原则、内容规范与前端实现模式。",

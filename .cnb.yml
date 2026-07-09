@@ -15,8 +15,8 @@ $:
 
 # ── 推送事件 ──────────────────────────────────────
 main:
-  # 构建 NPC 运行时镜像
   push:
+    # 构建 NPC 运行时镜像
     - name: build-npc-image
       services:
         - docker
@@ -26,19 +26,18 @@ main:
             docker build -t ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest .
             docker push ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest
 
-    # 更新知识库
-    - name: update-knowledge-base
-      docker:
-        image: node:20
-      stages:
-        - name: kb-update
+    # 知识库构建：推送后自动对仓库文档做切片、向量化，供 AI 问答检索
+    - stages:
+        - name: 更新知识库
           type: knowledge:update
           options:
-            include:
-              - "**/*.md"
+            include: "**/**.md"
             exclude:
-              - "node_modules/**"
-              - ".git/**"
+              - node_modules/**
+              - dist/**
+              - .git/**
+            issueSyncEnabled: true
+            chunkSize: 1500
 
     # 构建验证
     - name: build-verify
@@ -51,108 +50,29 @@ main:
         - name: build
           script: bun run build
 
-    # ── 定时任务：每周一早上 8:00 定期维护设计系统数据 ──
-  "crontab: 0 8 * * 1":
-    - name: weekly-maintenance
-      docker:
-        build:
-          dockerfile: ./Dockerfile
+    # 部署到 EdgeOne Pages 静态站点
+    # 需要先在 CNB 密钥仓库中配置 EDGEONE_API_TOKEN
+    # 可创建私有仓库存放 envs.yml（含 EDGEONE_API_TOKEN），然后在下方 imports 中引用
+    - name: deploy-edgeone-pages
+      imports: https://cnb.cool/wuxia/secret/-/blob/main/edgone.env.yml
       stages:
-        - name: install-deps
-          script: bun install
-        - name: update-sources
-          script: bun run update:sources
-        - name: update-readme
-          script: bun run update:readme
-        - name: build-verify
-          script: bun run build
-        - name: auto-maintain
-          type: npc:go
-          options:
-            role: UI哥
-            systemPrompt: |
-              你是 UI哥，现在执行定期维护任务。
-              请检查 SOURCE.md 和 src/data/sourceDesignSystems.json 中是否有新的、符合收藏规范的设计系统条目，
-              如果有，请按照规范将其提升到 src/data/designSystems.json 主数据中。
-              注意去重、补齐中英文描述和标签。
-              完成后执行 bun run update:readme 和 bun run build 验证。
-              如果没有需要提升的条目，请报告当前数据状态。
-            userPrompt: |
-              执行每周定期维护：
-              1. 检查 src/data/sourceDesignSystems.json 中是否有可提升到主数据的条目
-              2. 筛选条件：有 title、website、github，能补齐中英文描述和标签
-              3. 去重检查：与现有 src/data/designSystems.json 不重复
-              4. 如果有新条目，按规范添加到主数据
-              5. 执行 bun run update:readme
-              6. 执行 bun run build 验证
-
-# ── PR 检查 ──────────────────────────────────────
-"**":
-  pull_request:
-    - name: pr-check
-      docker:
-        build:
-          dockerfile: ./Dockerfile
-      stages:
-        - name: install-deps
-          script: bun install
-        - name: build-verify
-          script: bun run build
-# ── NPC 事件（仓库级事件，必须放在 $ 兜底分支下） ───
-$:
-  issue.comment@npc:
-    - docker:
-        image: ${CNB_DOCKER_REGISTRY}/${CNB_NPC_SLUG_LOWERCASE}:latest
-      stages:
-        - name: npc go
-          type: npc:go
-  pull_request.comment@npc:
-    - docker:
-        image: ${CNB_DOCKER_REGISTRY}/${CNB_NPC_SLUG_LOWERCASE}:latest
-      stages:
-        - name: npc go
-          type: npc:go
-
-# ── 推送事件 ──────────────────────────────────────
-main:
-  # 构建 NPC 运行时镜像
-  push:
-    - name: build-npc-image
-      services:
-        - docker
-      stages:
-        - name: docker-build
+        - name: build-for-deploy
+          image: node:20
           script: |
-            docker build -t ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest .
-            docker push ${CNB_DOCKER_REGISTRY}/${CNB_REPO_SLUG_LOWERCASE}:latest
+            npm install -g bun
+            bun install
+            bun run build
+        - name: deploy to EdgeOne Pages
+          image: node:20
+          script: npx edgeone pages deploy ./dist -n awesome-ui-design-system -t $EDGEONE_API_TOKEN
+      ifModify:
+        - "src/**"
+        - "build.ts"
+        - "package.json"
+        - "bun.lock"
+        - "tsconfig.json"
 
-    # 更新知识库
-    - name: update-knowledge-base
-      docker:
-        image: node:20
-      stages:
-        - name: kb-update
-          type: knowledge:update
-          options:
-            include:
-              - "**/*.md"
-              - "**/**.json"
-            exclude:
-              - "node_modules/**"
-              - ".git/**"
-
-    # 构建验证
-    - name: build-verify
-      docker:
-        build:
-          dockerfile: ./Dockerfile
-      stages:
-        - name: install-deps
-          script: bun install
-        - name: build
-          script: bun run build
-
-    # ── 定时任务：每周一早上 8:00 定期维护设计系统数据 ──
+  # ── 定时任务：每周一早上 8:00 定期维护设计系统数据 ──
   "crontab: 0 8 * * 1":
     - name: weekly-maintenance
       docker:

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import designSystems from "./data/designSystems.json";
+import { HealthBadge } from "./HealthBadge";
 
 type Locale = "zh" | "en";
 
@@ -319,7 +320,10 @@ export function DesignSystems() {
                         ))}
                       </div>
                     </div>
-                    <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+                    <div className="mt-3 flex items-center justify-between border-t border-gray-100 pt-3">
+                      <HealthBadge url={ds.website} locale={locale} />
+                    </div>
+                    <div className="mt-3 flex flex-col gap-3 sm:flex-row">
                       <a
                         href={ds.website}
                         target="_blank"
